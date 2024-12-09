@@ -185,7 +185,7 @@ Crop_License_Plate_model = YOLO("train_Crop_License_Plate/train/weights/best.pt"
 Read_License_Plate_model = YOLO("train_Read_License_Plate/train/weights/best.pt")
 
 # อ่านภาพต้นฉบับ
-image_path = "../1(1).jpg"
+image_path = "D:/Intren/Detect license plates/roboflow3/train/images/183-89-207-243_15_20220906150707927_jpg.rf.bedfcfed9466a7473cc9457c77e19a3e.jpg"
 original_image = cv2.imread(image_path)
 
 # ตรวจจับกรอบป้ายทะเบียน
